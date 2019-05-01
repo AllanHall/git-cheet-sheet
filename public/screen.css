@@ -10,3 +10,87 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+* ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-header {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0 0 0 0;
+  padding: 3rem 2rem;
+  background-color: magenta;
+}
+
+.page-header::before {
+  /*content: url('Cssone.png');
+  transform: scale(0.1);*/
+  /* The image online was way too big and had trouble fitting in the header.
+  Even after I sized them down, they wouldn't stay inline despite the inline-block */
+  padding: 0 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-header::after {
+  /*content: url('Cssone.png');
+  transform: scale(0.1);*/
+  /* So I just decided to cut them, but learned quite a bit going down that rabbit hole */
+  padding: 0 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-descriptor {
+  background-color: magenta;
+  margin: 0 0 0 0;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.first-instrument {
+  padding: 0.5rem;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.second-instrument {
+  padding: 0.5rem;
+  background-color: rgb(26, 226, 26);
+  border: 1px solid black;
+}
+
+.third-instrument {
+  padding: 0.5rem;
+  background-color: rgb(47, 203, 255);
+  border: 1px solid black;
+}
+
+.fourth-instrument {
+  padding: 0.5rem;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+#instrument {
+  font-size: 1.3rem;
+  font-style: bold;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+}
+
+#extra-space {
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+p {
+  padding-left: 2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: lightcoral;
+}

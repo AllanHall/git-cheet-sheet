@@ -1,0 +1,60 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+* h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.page-two-header {
+  text-align: center;
+  font-size: 4rem;
+  background-color: rgb(165, 65, 165);
+  min-height: 10rem;
+  padding-top: 3rem;
+}
+
+#artist-one {
+  background-color: teal;
+  text-align: center;
+  min-height: 3rem;
+  padding-top: 1rem;
+}
+
+#artist-two {
+  background-color: teal;
+  text-align: center;
+  min-height: 3rem;
+  padding-top: 1rem;
+}
+
+#artist-three {
+  background-color: teal;
+  text-align: center;
+  min-height: 3rem;
+  padding-top: 1rem;
+}
+
+#more-space {
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: maroon;
+}
+
+footer > div > a {
+  color: white;
+}
